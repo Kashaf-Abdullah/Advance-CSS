@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    :root{
+        --b-a-width:10vw;
+        --b-a-md-width:15vw;
+        --b-a-sm-width:20vw;
+        
+    }
+    .main_div{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: rgb(38, 98, 57);
+    }
+    /*  h1{
+        color: rgb(234, 148, 148);
+        text-shadow: 0 2px 6px rgb(249, 173, 249);
+    }
+   h1::before{
+        content: "mern developer";
+
+    }
+    h1::after{
+        content: "hello its me";
+    } */
+
+    h1{
+        color: rgb(234, 148, 148);
+        text-shadow: 0 2px 6px rgb(249, 173, 249);
+    position: relative;
+    }
+
+    h1::before{
+        content: "";
+        position: absolute;
+        top:5%;
+        left:30%;
+      transform: translateX(-50%);
+        width: var(--b-a-width);
+        border-bottom: 4px solid blue;
+    }
+
+
+    h1::after{
+        content: "";
+        position: absolute;
+        bottom:-5%;
+        left:30%;
+        transform: translateX(-50%);
+        width: var(--b-a-width);
+        border-bottom: 4px solid blue;
+    }
+    
+
+
+</style>
+</head>
+<body>
+    <div class="main_div">
+        <h1>Kahsaf Abdullah</h1>
+    </div>
+</body>
+</html>

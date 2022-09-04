@@ -1,0 +1,12 @@
+animation-name
+animation-fill-mode
+animation-timing-function
+animation-direction
+animation-iteration-count
+animation-delay
+animation-duration
+animation
+
+
+an animation lets an elemnt gradually change from one style 
+@keyframe

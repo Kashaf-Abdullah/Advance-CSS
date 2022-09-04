@@ -1,0 +1,8 @@
+:link
+    selector is used to select unvisited links
+
+:visited- selects links that have already been visited by the current browser
+
+:hover- when the nouse cursor rolls over a link, that link is in its a hover state and this will select its
+
+:active- selects the link ehile it is being activated (being clicked on or otherwise activated)

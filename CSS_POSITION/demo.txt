@@ -1,0 +1,11 @@
+when we want to move the object or overlap object into another object 
+so we use position 
+absolute 
+relative
+
+
+position: relative places an element relative
+ to its current position without changing the
+  layout around it, whereas
+   position: absolute places an element relative
+    to its parent's position and changing the layout around it

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Grenze Gotisch' ,cursive;
+        }
+        :root{
+            --width:100vw;
+        }
+        .main_div{
+            width:var(--width);
+            padding: 100vh;
+            padding-top: 100px;
+            text-align: center;
+        }
+        h1{
+            color:rgb(123, 217, 224);
+          
+        }
+        h1:after{
+            content: "\f005";
+            font-family:"Font Awesome 5 Free";
+            width:cal(var(--width) - 80vw);
+            height:25px;
+
+            color:blueviolet;
+            display: block;
+            font-size: 3rem;
+            border-bottom: 5px solid yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main_div">
+        <h1>Kashaf Abdullah</h1>
+    </div>
+</body>
+</html>

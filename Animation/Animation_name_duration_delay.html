@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box-container{
+    width: 600px ;
+    height:600px;
+    border:2px solid black;
+    margin:auto;
+    position: relative;
+
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color: rgb(233, 49, 49);
+    position:absolute;
+    top:0px;
+    left:0px;
+   animation-delay:2s ;
+    animation-name: box;
+    animation-duration: 15s;
+}
+
+@keyframes box {
+    0%{
+        top:0px;
+        left:0px;
+        background-color: blue;
+    }
+
+    15%{
+        top:0px;
+        left:200px;
+        background-color: magenta;
+
+    }
+/* 25% percent of 5 second */
+    25%{
+        top:0px;
+        left:400px;
+        background-color:yellow
+
+    }
+   
+/* 50pecent  of 5 send means 2.5 second */
+    50%{
+top:400px;
+left:400px;
+background-color:pink;
+    }
+
+    /* if you will not mention here 100% so it will again come in it own positon */
+    75%{
+        top:400px;
+        left:0px;
+        background-color: orange;
+        
+    }
+    /* The changine which is in 0% same as apply on 100% */
+    100%{
+        top:0px;
+        left:0px;
+        background-color:black;
+    }
+    
+}
+    </style>
+</head>
+<body>
+<div class="box-container">
+<div class="box"></div>
+</div>
+</body>
+</html>
+

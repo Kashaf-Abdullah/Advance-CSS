@@ -1,0 +1,1 @@
+    /* margin:auto work when you give some width */

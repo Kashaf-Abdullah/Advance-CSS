@@ -1,0 +1,40 @@
+
+<!-- column-rule property work as same as border property -->
+ <!-- use column width or column count(one property at a time)  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height:100px;
+        /* column-count: 3; */
+        column-gap: 50px;
+        column-rule: 4px solid black;
+        /* use column width or column count */
+        column-width: 400px;
+       
+    }
+    .h2{
+        /* column-span: all  |  none  |; */
+        column-span: auto;
+    }
+</style>
+<body>
+    <div class="main">
+        <h2 class="h2">Welome </h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Pariatur libero minus excepturi
+             officia quaerat esse, numquam odit ipsa facere maxime!
+             Lorem ipsum dolor sit amet consectetur 
+             adipisicing elit. Pariatur libero minus excepturi
+              officia quaerat esse, numquam odit ipsa facere maxime
+            </p>
+    </div>
+</body>
+</html>
