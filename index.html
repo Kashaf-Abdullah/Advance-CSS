@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grand_parent{
+            width:100vw;
+            height:100vh;
+            background-color: rgb(100, 167, 75);
+        }
+        h1{
+            font-size: 4rem;
+            padding: 50px 0;
+            text-align:center;
+            color:aquamarine
+        }
+        p{
+            text-align:center;
+        }
+        .parents{
+            width:80vw;
+            height:auto;
+            margin: auto;
+            display: flex;
+            /* justify-content(horizantal) */
+            justify-content: space-around;
+flex-wrap: wrap;
+flex:1 1 200px;;
+height: 200px;;
+        }
+        .child{
+            width: 200px;
+            height:200px;
+            background-color: rgb(202, 31, 196);
+        }
+        .child:first-child{
+            background:rgb(153, 73, 86)
+        }
+        .child:last-child{
+            background-color: rgb(31, 170, 175);
+        }
+
+        @media (max-width:760px){
+            .grand_parent{
+                height:auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grand_parent">
+<h1>Services</h1>
+<div class="parents">
+    <div class="child"><p>Kashaf Abdullah</p></div>
+    <div class="child"><p>Kashaf Abdullah</p></div>
+    <div class="child"><p>Kashaf Abdullah</p></div>
+    
+</div>
+    </div>
+</body>
+</html>
